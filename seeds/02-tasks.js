@@ -10,8 +10,6 @@ exports.seed = function(knex) {
         {TaskDescription: "Tape", notes: 'Tape off room', Completed: false, Project_id: 3 },
         {TaskDescription: 'Paint', notes: 'Apply base coat', Completed: false,  Project_id: 3 },
         {TaskDescription: 'Make sketches', notes: 'decide on still or live drawing', Completed: false,  Project_id: 1 },
-        {TaskDescription: 'Paint', notes: 'Apply base coat', Completed: false,  Project_id: 3 },
-
       ]);
     });
 };

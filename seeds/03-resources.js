@@ -5,9 +5,9 @@ exports.seed = function(knex) {
     .then(function () {
       // Inserts seed entries
       return knex('Resources').insert([
-        {ResourcesName: 'Youtube', ResourcesDescription: 'search drawing techniques', Project_id:1 },
-        {ResourcesName: 'Fitbit', ResourcesDescription: 'Watch to monitor running', Project_id:2 },
-        {ResourcesName: 'Home Depot', ResourcesDescription: 'Store near you', Project_id:3 },
+        {ResourcesName: 'Youtube', ResourceDescription: 'search drawing techniques', Project_id:1 },
+        {ResourcesName: 'Fitbit', ResourceDescription: 'Watch to monitor running', Project_id:2 },
+        {ResourcesName: 'Home Depot', ResourceDescription: 'Store near you', Project_id:3 },
       ]);
     });
 };

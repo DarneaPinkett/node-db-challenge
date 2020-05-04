@@ -8,8 +8,9 @@ function findAllResources() {
     return db("resources")
 }
 
-function findAllTasks() {
-    return db("task")
+function findAllTasks(Project_id) {
+    return db('tasks')
+    .where({Project_id})
 }
 
 function addProjects(project) {
